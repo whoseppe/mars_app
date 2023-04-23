@@ -22,7 +22,6 @@ const Home = () => {
       const response = await axios.get(
         `https://api.nasa.gov/mars-photos/api/v1/rovers/?api_key=${process.env.REACT_APP_NASA_KEY}`
       );
-      console.log(response.data.rovers);
       setFetchedRovers(response.data.rovers);
     } catch (error) {
       setError(true);
