@@ -3,9 +3,8 @@ This project uses the NASA Mars Rover Photos API to fetch images taken on specif
 
 # Tools Used
 
-# Getting Started with Create React App
+- [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Get Started
 
